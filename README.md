@@ -37,3 +37,5 @@ Example:
 ```bash
 ./tweets_generator 454545 30 justdoit_tweets.txt 100
 ```
+## Demo
+![Demo](<img width="922" height="270" alt="Screenshot 2025-10-31 144316" src="https://github.com/user-attachments/assets/2f6ec7bb-1c6b-41d4-b99d-1e2df99ecb15" />)
