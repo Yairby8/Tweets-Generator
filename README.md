@@ -1,4 +1,4 @@
-# Markov Chain Tweets Generator
+# Markov Chain Tweets Generator💬
 
 ## Overview  
 A C program that generates tweets based on a text corpus using Markov Chains, modeling word-to-word probabilities to create new, stylistically similar tweets. Demonstrates natural language processing, dynamic memory management, and pseudo-random generation.
