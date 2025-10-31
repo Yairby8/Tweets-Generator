@@ -39,4 +39,4 @@ Example:
 ```
 ## Demo
 
-![Demo output](Tweets_generator/Screenshot 2025-10-31 144316.png)
+![Demo output](Tweets_generator/demo.png)
