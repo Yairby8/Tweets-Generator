@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/c/Users/Yair/Documents/C_projects/ex3/linked_list.h
+stdlib.h
+-
+
+/mnt/c/Users/Yair/Documents/C_projects/ex3/markov_chain.c
+linked_list.h
+/mnt/c/Users/Yair/Documents/C_projects/ex3/linked_list.h
+markov_chain.h
+/mnt/c/Users/Yair/Documents/C_projects/ex3/markov_chain.h
+stdio.h
+-
+stdlib.h
+-
+stdbool.h
+-
+string.h
+-
+
+/mnt/c/Users/Yair/Documents/C_projects/ex3/markov_chain.h
+linked_list.h
+/mnt/c/Users/Yair/Documents/C_projects/ex3/linked_list.h
+stdio.h
+-
+stdlib.h
+-
+stdbool.h
+-
+
+/mnt/c/Users/Yair/Documents/C_projects/ex3/tweets_generator.c
+stdio.h
+-
+markov_chain.h
+/mnt/c/Users/Yair/Documents/C_projects/ex3/markov_chain.h
+linked_list.h
+/mnt/c/Users/Yair/Documents/C_projects/ex3/linked_list.h
+string.h
+/mnt/c/Users/Yair/Documents/C_projects/ex3/string.h
+
