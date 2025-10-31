@@ -8,7 +8,16 @@ A C program that generates tweets based on a text corpus using Markov Chains, mo
 - Generates probabilistic tweets with reproducible randomness using a seed  
 - Handles file errors, memory allocations, and command-line argument validation  
 - Supports partial or full corpus reading with flexible parameters  
-- Prints tweets prefixed with "Tweet X:" and caps length at 20 words  
+- Prints tweets prefixed with "Tweet X:" and caps length at 20 words
+
+## Skills & Concepts Demonstrated  
+- Natural Language Processing (NLP) using Markov Chains  
+- C programming: pointers, dynamic memory allocation, string handling  
+- Data structures: linked lists for managing word transitions  
+- Probabilistic modeling and pseudo-random generation (`srand`, `rand`)  
+- File input/output and robust error handling  
+- Modular coding with resource cleanup and memory management  
+- Command-line argument parsing and validation  
 
 ## Usage  
 Compile with:  
@@ -28,12 +37,3 @@ Example:
 ```bash
 ./tweets_generator 454545 30 justdoit_tweets.txt 100
 ```
-
-## Skills & Concepts Demonstrated  
-- Natural Language Processing (NLP) using Markov Chains  
-- C programming: pointers, dynamic memory allocation, string handling  
-- Data structures: linked lists for managing word transitions  
-- Probabilistic modeling and pseudo-random generation (`srand`, `rand`)  
-- File input/output and robust error handling  
-- Modular coding with resource cleanup and memory management  
-- Command-line argument parsing and validation  
